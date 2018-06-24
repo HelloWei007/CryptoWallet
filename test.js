@@ -10,7 +10,6 @@ function rng() {
     return Buffer.from('zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz')
 }
 
-
 describe('bitcoinjs-lib (addresses)', function () {
     it('can generate a random address', function () {
         var keyPair = bitcoin.ECPair.makeRandom({
